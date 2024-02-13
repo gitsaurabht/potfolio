@@ -1,0 +1,63 @@
+.img1 {
+  width: 20rem;
+  padding: 3px 1px;
+  margin-left: 44.5rem;
+}
+
+.img2 {
+  width: 20rem;
+  padding: 3px 1px;
+  margin-left: 42.5rem;
+}
+
+.paraimg {
+  margin-left: 10rem;
+}
+
+.head2 {
+  margin-left: 3.5rem;
+}
+
+.paraimg2 {
+  margin-left: 9rem;
+}
+
+.mainline {
+  font-size: 4rem;
+  margin-left: 7rem;
+}
+
+@media (max-width: 768px) {
+  .img1, .img2 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .paraimg, .paraimg2 {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .head2 {
+    margin-left: 0;
+    margin-top: 1rem;
+}
+  .mainline{
+    font-size: 2rem;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+
+ .mainline{
+ font-size: 2rem;
+}
+}
+@media (max-width: 480px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 20px;
+  }
+}

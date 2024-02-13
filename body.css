@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.greet{
+    position: absolute;
+    top: 19rem;
+    margin-left: 14.5rem;
+    font-size: 0.9rem;
+}
+.name{
+    position: absolute;
+    top: 20rem;
+    margin-left: 14rem;
+    font-size: 3.7rem;
+}
+.info{
+    position: absolute;
+    top: 26rem;
+    margin-left: 14rem;
+    font-size: 2.4rem;
+}
+.work{
+    position: absolute;
+    top: 30rem;
+    margin-left: 14rem;
+    font-size: 0.6rem;
+}
+img{
+    float: right;
+    width: 21%;
+    border-radius: 22rem;
+    border: 0.2rem solid #e494ff;
+    padding: 1rem 4rem;
+    margin-right: 5rem;
+    top: 45rem;
+    margin-top: 9rem;
+    background-color: #b89696;
+}
+img:hover{
+ background-color: #bc8e8e;
+}
+
+
+.button a{
+    position: absolute;
+    top: 34rem;
+    margin-left: 14rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    background-color: rgb(248, 101, 101);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 7px;
+}
+.button2 a{
+    position: absolute;
+    top: 34rem;
+    margin-left: 25rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    background-color: rgb(248, 101, 101);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 7px;
+}
+.button a:hover{
+    background-color: rgb(248, 148, 148);
+}
+.button2 a:hover{
+    background-color: rgb(248, 148, 148);
+}
+
+@media (max-width: 1090px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1090px){
+    /* navbar */
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #cdadc0;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    nav ul li:hover{
+        background: rgb(187, 100, 114);
+        transition: 0.5s;
+        padding: 5px 5px;
+        border-radius: 12px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+
+    }
+}
+
+
+/* home */
+@media (max-width: 1200px){
+    nav ul li:hover{
+        background: pink;
+        transition: 0.5s;
+        padding: 5px 5px;
+        border-radius: 12px;
+    }
+    .greet{
+        top: 45rem;
+        margin-left: 31rem;
+        font-size: 1.2rem; z-index: -1;
+    }
+    .name{
+        top: 47rem;
+        margin-left: 24.5rem;
+        font-size: 3.0rem; z-index: -1;
+    }
+    img{
+        margin-left: 26rem;
+        top: 1rem;
+        position: absolute;
+        width: 22rem; z-index: -1;
+    }
+    .info{
+        position: absolute;
+        top: 52rem;
+        margin-left: 20.5rem;
+        font-size: 2.4rem; z-index: -1;
+    }
+    .work{
+        position: absolute;
+        top: 56rem;
+        margin-left: 15rem;
+        font-size: 0.5rem; z-index: -1;
+
+    }
+   .button a{
+        top: 60rem;
+        margin-left: 23rem; z-index: -1;
+   }
+   .button2 a{
+        top: 60rem;
+        margin-left: 35rem; z-index: -1;
+   }
+}
+/* home */
+@media (max-width: 900px){
+    nav ul li:hover{
+        background: pink;
+        transition: 0.5s;
+        padding: 5px 5px;
+        border-radius: 12px;
+    }
+    .greet{
+        top: 45rem;
+        margin-left: 17rem;
+        font-size: 1.2rem; z-index: -1;
+    }
+    .name{
+        top: 47rem;
+        margin-left: 12.5rem;
+        font-size: 3.0rem; z-index: -1;
+    }
+    img{
+        margin-left: 12rem;
+        top: 1rem;
+        position: absolute;
+        width: 22rem; z-index: -1;
+    }
+    .info{
+        position: absolute;
+        top: 52rem;
+        margin-left: 7.5rem;
+        font-size: 2.4rem; z-index: -1;
+    }
+    .work{
+        position: absolute;
+        top: 56rem;
+        margin-left: 2rem;
+        font-size: 0.5rem; z-index: -1;
+
+    }
+   .button a{
+        top: 60rem;
+        margin-left: 9rem; z-index: -1;
+   }
+   .button2 a{
+        top: 60rem;
+        margin-left: 22rem; z-index: -1;
+   }
+}
+/* home */
+@media (max-width: 650px){
+    nav ul li:hover{
+        background: pink;
+        transition: 0.5s;
+        padding: 5px 5px;
+        border-radius: 12px;
+    }
+    .greet{
+        top: 29rem;
+        margin-left: 13rem;
+        font-size: 1.2rem;
+        z-index: -1;
+    }
+    .name{
+        top: 31rem;
+        margin-left: 6.5rem;
+        font-size: 3.0rem;
+        z-index: -1;
+    }
+    img{
+        margin-left: 11rem;
+        top: 1rem;
+        position: absolute;
+        width: 15rem;
+        z-index: -1;
+    }
+    .info{
+        position: absolute;
+        top: 35rem;
+        margin-left: 9rem;
+        font-size: 1.4rem;
+    }
+    .work{
+        position: absolute;
+        top: 39rem;
+        margin-left: 1rem;
+        font-size: 0.5rem;
+
+    }
+   .button a{
+       top: 42rem;
+       margin-left: 12rem;
+   }
+   .button2 a{
+        top: 45rem;
+        margin-left: 11rem;
+   }
+}
+/* home */
+@media (max-width: 450px){
+    nav ul li:hover{
+        background: pink;
+        transition: 0.5s;
+        padding: 5px 5px;
+        border-radius: 12px;
+    }
+    .greet{
+        top: 26rem;
+        margin-left: 9rem;
+        font-size: 1.2rem;
+        z-index: -1;
+    }
+    .name{
+        top: 28rem;
+        margin-left: 6rem;
+        font-size: 2rem;
+        z-index: -1;
+    }
+    img{
+        margin-left: 6rem;
+        top: 1rem;
+        position: absolute;
+        width: 14rem;
+        z-index: -1;
+    }
+    .info{
+        position: absolute;
+        top: 31rem;
+        margin-left: 6rem;
+        font-size: 1rem;
+    }
+    .work{
+        position: absolute;
+        top: 33rem;
+        margin-left: 1rem;
+        font-size: 0.5rem;
+
+    }
+   .button a{
+       top: 35rem;
+       margin-left: 4rem;
+       width: 6rem;
+       font-size: 1rem;   
+   }
+   .button2 a{
+       top: 35rem;
+       margin-left: 11rem;
+       width: 7rem;
+       font-size: 1rem;
+   }
+}
+
+

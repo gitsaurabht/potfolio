@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.contactform{
+    font-family: cursive;
+    padding: 0px 80px;
+    padding-top: 125px;
+    background: url(background.jpeg)no-repeat;
+   }
+   
+   .contactform h1{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       text-align: center;
+      
+   }
+   .contactform div{
+       display: flex;
+       flex-direction: column;
+       padding: 10px 0px;
+   }
+   .contactform div{
+       width: 16vw;
+   }
+   h1{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       text-align: center;
+       padding: 10px;
+       margin-left: -9px;
+       white-space: nowrap;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       
+      
+   }
+   
+   #emailHelp{
+       color: rgb(136 147 157);;
+       font-size: 15px;
+   }
+   #exampleCheck1{
+       margin-right: 250px;
+   }
+   .contactform div input{
+       font-size: 16px;
+       border-radius: 20px;
+       margin: 0px 6px;
+       padding: 6px 29px;   
+   }
+   button.btn.btn-primary{
+       padding: 5px 10px;
+       border-radius: 10px;
+       background-color: antiquewhite;
+   }
+   button.btn.btn-primary:hover{
+       background-color: rgb(243, 210, 169);
+   }
+   
+   #check{
+    display: none;
+   }
+  
+   @media (max-width: 1090px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1090px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(187, 100, 114);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    nav ul li:hover{
+        background: pink;
+        transition: 0.5s;
+        padding: 5px 5px;
+        border-radius: 12px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .contactform div{
+        width: 70vw;
+    }
+    }
